@@ -1,0 +1,58 @@
+/*index - first mondrian painting*/
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0px;
+            padding: 0px;
+            
+        }
+
+        .container {
+            background-color: black;
+            display: grid;
+            grid-template-columns: 0.9fr 2fr 0.3fr;
+            grid-template-rows: 1.5fr 2fr 0.5fr 0.5fr;
+            gap: 1rem;
+            width: 400px;
+            height: 400px;
+            }
+
+        .item {
+            background-color: whitesmoke;
+        }
+
+        .white1 {
+            border-bottom: 15px solid black;
+        }
+
+        .red {
+            background-color: #E72F27; 
+            grid-column-start: 2;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+
+        .white2 {
+            background-color: whitesmoke;
+        }
+
+        .blue {
+            background-color: darkblue;
+            grid-row: span 2;
+        }
+
+        .white3 {
+            grid-row: span 2;
+        }
+
+        .yellow {
+            order: 1;
+            background-color: #F9D01E;
+            
+        }
+
+
+        
